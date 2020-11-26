@@ -10,4 +10,4 @@ A Telegram bot for notifications about new commits merged from Gerrit Code Revie
 4. [ArrowOS GWatcher](https://t.me/arrowosgwatcher)
 
 ### Running in docker
-`docker run --name gw -e TG_TOKEN=TOKEN -e TG_CHAT_ID=ID -d andersonmendess/gwatcher:latest`
+`docker run --name gw -e TG_TOKEN=TOKEN -e TG_CHAT_ID=ID -d itz63c/gwatcher-stx:latest`
