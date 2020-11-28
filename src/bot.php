@@ -27,7 +27,7 @@ function runAsLoop(Array $config): void {
     echo "GWatcher is running!\n";
     while (true) {
         main($config);
-        sleep(15*60);
+        sleep(60);
     }
 
 }
